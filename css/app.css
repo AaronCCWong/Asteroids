@@ -15,7 +15,7 @@ html, body, h1 {
   clear: both;
 }
 
-section {
+.canvas {
   margin: 0 auto;
 
   border: 1px solid #ccccc8;
@@ -31,4 +31,10 @@ canvas {
   text-align: center;
   font-size: 36px;
   font-weight: bold;
+}
+
+.instructions {
+  width: 1000px;
+
+  margin: 0 auto;
 }
