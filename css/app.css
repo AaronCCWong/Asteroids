@@ -19,33 +19,13 @@ html, body, h1 {
   margin: 0 auto;
 
   border: 1px solid #ccccc8;
-  height: 500px;
+  height: 650px;
   width: 1000px;
 }
 
 canvas {
-  background: url("images/bright-star.png");
-  height: 500px;
+  height: 650px;
   width: 1000px;
-
-  -webkit-animation: slide 20s linear infinite;
-     -moz-animation: slide 20s linear;
-          animation: slide 20s linear infinite;
-}
-
-@-webkit-keyframes slide {
-  0%   {background-position: 0 0;}
-  100% {background-position: 1900px 0;}
-}​
-
-@-moz-keyframes slide {
-  0%   {background-position: 0 0;}
-  100% {background-position: 1900px 0;}
-}
-
-@keyframes slide {
-  0%   {background-position: 0 0;}
-  100% {background-position: 1900px 0;}
 }
 
 .game-name {
