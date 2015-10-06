@@ -20,6 +20,11 @@
     <h1 class="game-name">Asteroids</h1>
 
     <section class="canvas">
+      <div class="play-game">
+        Hit Enter to Play
+        <p>Navigate with the arrow keys<br>
+          Hold 'Space' to Fire</p>
+      </div>
       <canvas id="canvas"></canvas>
     </section>
 
@@ -36,9 +41,7 @@
       canvas.height = Asteroids.Game.DIM_X;
       canvas.width = Asteroids.Game.DIM_Y;
       var ctx = canvas.getContext("2d");
-      var game = new Asteroids.Game();
-      var gameView = new Asteroids.GameView(game, ctx);
-      gameView.start();
+      new Asteroids.GameView(ctx).stop();
     </script>
   </body>
 </html>

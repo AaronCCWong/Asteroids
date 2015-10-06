@@ -16,11 +16,26 @@ html, body, h1 {
 }
 
 .canvas {
+  position: relative;
   margin: 0 auto;
 
   border: 1px solid #ccccc8;
   height: 650px;
   width: 1000px;
+}
+
+.play-game {
+  display: none;
+  font-size: 50px;
+  position: absolute;
+  vertical-align: middle;
+  width: 500px;
+  top: 30%;
+  left: 28%;
+}
+
+.play-game > p {
+  font-size: 30px;
 }
 
 canvas {
