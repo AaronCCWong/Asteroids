@@ -20,25 +20,37 @@ html, body, h1 {
   margin: 0 auto;
 
   border: 1px solid #ccccc8;
+  border-radius: 4px;
   height: 650px;
   width: 1000px;
 }
 
-.play-game {
+.canvas > .play-game {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #000;
+  padding: 10px;
+
   display: none;
   font-size: 50px;
+  color: #ffffff;
   position: absolute;
   vertical-align: middle;
-  width: 500px;
-  top: 30%;
-  left: 28%;
+  top: 37%;
+  left: 33%;
 }
 
-.play-game > p {
-  font-size: 30px;
+.canvas > .play-game > p {
+  font-size: 20px;
+}
+
+.canvas > .show {
+  display: block;
 }
 
 canvas {
+  border-radius: 4px;
+
   height: 650px;
   width: 1000px;
 }
