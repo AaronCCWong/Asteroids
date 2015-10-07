@@ -26,6 +26,7 @@ html, body, h1 {
 }
 
 .canvas > .play-game {
+  text-align: center;
   border: 1px solid #aaa;
   border-radius: 4px;
   background-color: #000;
@@ -37,7 +38,7 @@ html, body, h1 {
   position: absolute;
   vertical-align: middle;
   top: 37%;
-  left: 33%;
+  left: 31%;
 }
 
 .canvas > .play-game > p {
