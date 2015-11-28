@@ -9,6 +9,11 @@ html, body, h1 {
   text-decoration: inherit;
 }
 
+body {
+  background-color: #000;
+  color: #fff;
+}
+
 .group:after {
   content: "";
   display: block;
